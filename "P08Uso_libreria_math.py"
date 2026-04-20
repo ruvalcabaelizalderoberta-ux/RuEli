@@ -1,0 +1,6 @@
+#roberta guadalupe ruvalcaba elizalde 
+import math
+
+num = 16
+raiz = math.sqrt(num)
+print(f"La raíz cuadrada de {num} es {raiz}")
