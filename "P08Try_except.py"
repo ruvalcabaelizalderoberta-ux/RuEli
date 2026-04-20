@@ -1,0 +1,6 @@
+#roberta guadalupe ruvalcaba elizalde 
+try:
+    valor = int(input("Ingresa un número entero: "))
+    print(f"El número ingresado es {valor}")
+except ValueError:
+    print("Error: No ingresaste un número entero válido")
