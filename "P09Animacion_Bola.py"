@@ -1,0 +1,22 @@
+#roberta guadalupe ruvalcaba elizalde 
+import turtle
+
+wn = turtle.Screen()
+ball = turtle.Turtle()
+ball.shape("circle")
+
+speed = 2
+x_move = speed
+y_move = speed
+
+while True:
+    x = ball.xcor()
+    y = ball.ycor()
+
+    if x > 200 or x < -200:
+        x_move *= -1
+    if y > 200 or y < -200:
+        y_move *= -1
+
+    ball.setx(x + x_move)
+    ball.sety(y + y_move)
