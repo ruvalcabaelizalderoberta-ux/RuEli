@@ -1,0 +1,8 @@
+#roberta guadalupe ruvalcaba elizalde
+num = float(input("Ingresa un número: "))
+if num > 0:
+    print("Número positivo")
+elif num < 0:
+    print("Número negativo")
+else:
+    print("El número es cero")
